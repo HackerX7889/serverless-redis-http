@@ -34,7 +34,7 @@ defmodule Srh.MixProject do
       {:plug, "~> 1.13"},
       {:cowboy, "~> 2.9"},
       {:plug_cowboy, "~> 2.5"},
-      {:jason, "~> 1.3"},
+      {:jason, "~> 1.4"},
       {:gen_registry, "~> 1.1"}
     ]
   end

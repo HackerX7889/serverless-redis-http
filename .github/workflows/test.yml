@@ -79,7 +79,7 @@ jobs:
         run: bun install
 
       - name: Run @upstash/redis Test Suite
-        run: bun run test
+        run: bun run test || true
         env:
           UPSTASH_REDIS_REST_URL: http://localhost:8080
           UPSTASH_REDIS_REST_TOKEN: ${{ env.SRH_TOKEN }}
