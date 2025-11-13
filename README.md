@@ -100,7 +100,7 @@ jobs:
     steps:
       # You can place your normal testing steps here. In this example, we are running SRH against the upstash/upstash-redis test suite.
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: upstash/upstash-redis
 
